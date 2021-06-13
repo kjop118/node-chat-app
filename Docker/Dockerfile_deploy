@@ -1,0 +1,6 @@
+FROM chat
+
+WORKDIR ./node-chat-app
+
+RUN ls
+CMD npm start

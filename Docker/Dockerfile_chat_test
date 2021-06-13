@@ -1,0 +1,4 @@
+FROM chat
+
+WORKDIR ./node-chat-app
+RUN npm test
